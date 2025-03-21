@@ -1,5 +1,7 @@
 # Store Assignment Project
 <!-- <img width="1512" alt="overview-page-ss" src="" /> -->
+![screenshot-2025-03-21-03-52-44](https://github.com/user-attachments/assets/c464dfc7-7bbd-42f1-beba-a7d5ae54fc9f)
+
 ## Tech Stack
 
 - ⚡ **Next.js 15+**: Take advantage of the latest features and optimizations of the Next.js framework.
