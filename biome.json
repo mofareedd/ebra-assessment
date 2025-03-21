@@ -7,7 +7,9 @@
     "enabled": true,
     "rules": {
       "recommended": true,
-      "style": {},
+      "style": {
+        "useImportType": "off"
+      },
       "a11y": {
         "useSemanticElements": "off",
         "noSvgWithoutTitle": "off"
