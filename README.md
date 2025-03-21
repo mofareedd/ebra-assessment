@@ -4,9 +4,9 @@
 
 - ⚡ **Next.js 15+**: Take advantage of the latest features and optimizations of the Next.js framework.
 - 🔍 **TypeScript**: Develop with strong typing and improved code quality.
-- 🚀 **Biome**: Ensure consistent code style and catch errors early.
-- 🖼️ **Shadcn UI Library**: Integrate Shadcn UI library for building beautiful user interfaces effortlessly.
+- 🖼️ **Tailwind CSS**:Style your application with a utility-first approach for rapid UI development.
 - 🐻 **Zustand**: Manage state in a simple and scalable way.
+- 🚀 **Biome**: Ensure consistent code style and catch errors early.
 
 
 ## Getting Started
