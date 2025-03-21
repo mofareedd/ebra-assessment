@@ -39,7 +39,8 @@ export function Cart() {
                     <SheetTitle>My Cart <span className="text-muted-foreground">({itemCount})</span></SheetTitle>
                 </SheetHeader>
                 <div className="flex flex-col">
-                    {cart.map((p) => <CartProduct key={p.id} product={p} />)}
+
+                    {cart.length ? cart.map((p) => <CartProduct key={p.id} product={p} />) : <h2 className="text-2xl text-muted-foreground font-bold text-center">Empty Cart</h2>}
                 </div>
 
                 <div className="flex-1 flex flex-col justify-end space-y-3 pb-2 sticky bottom-0 bg-background">

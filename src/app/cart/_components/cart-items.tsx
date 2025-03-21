@@ -24,7 +24,7 @@ export function CartItems() {
             </div>
 
             <hr className='border-foreground' />
-            {cartItems.map((product) => (
+            {cartItems.length ? cartItems.map((product) => (
                 <div key={product.id} className="mb-4">
                     <div className="p-4">
                         <div className="grid grid-cols-12 gap-4 items-center">
@@ -77,7 +77,7 @@ export function CartItems() {
                     </div>
                     <hr />
                 </div>
-            ))}
+            )) : <h2 className="text-2xl text-muted-foreground font-bold text-center py-6">Empty Cart</h2>}
 
             {cartItems.length > 0 ? <Button variant={"destructive"} onClick={() => clearCart()}>Clear Cart</Button> : null}
         </div >
